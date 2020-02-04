@@ -1,15 +1,29 @@
-nav{ 
-  background-color: #ffffff;
-  border-bottom: lightgray 3px solid;
-}
-
 body{
+  height: 100%;
+  width: 100%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #777777;
   background-image: url(../images/dust_scratches.png);
 }
 
-nav a{
-  border-left: #efefef 2px solid;
+.navbar{ 
+  padding: .8rem;
 }
+
+.nav-link{
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+.navbar-brand{
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
 /*
 .container{
   width: 80%;
