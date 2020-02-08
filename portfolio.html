@@ -1,44 +1,92 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Eduardo Ozuna's Portfolio | Welcome</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <meta name="viewport" content="width=device-width">
-    <meta name="author" content="Eduardo Ozuna">
-    <meta name="description" content="Eduardo Ozuna's Portfolio Page">
-  </head>
 
-  <body>
-    
-    <header>
-      <div class="container">
-        <div id="your name">
-          <h1>Your Name</h1>
+<head>
+  <meta charset="UTF-8">
+  <title>Eduardo Ozuna's Portfolio | Welcome</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Eduardo Ozuna">
+  <meta name="description" content="Eduardo Ozuna's Professional Page">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!--  Navigation Bar -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-white sticky-top">
+    <div class="container">
+      <span class="navbar-brand" style="color: #ffffff;">Eduardo Ozuna, M.D.</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="index.html">About</a>
+          <a class="nav-item nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
         </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">contact</a></li>
-          </ul>
-        </nav>
       </div>
-    </header>   
-
-    <section>
-      <div class="container">
-        <h1>Portfolio</h1>
-        <article>
-          <p>These are pics of stuff I created</p>
-        </article>
     </div>
-    </section>
+  </nav>
 
-    <footer class="container">
-      <p>copyright &copy;</p>
-    </footer>
-  </body>
+  <section>
+    <div class="container bg-white main-section" id="port-images">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Portfolio</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="assets/images/Word_Guess.jfif" class="img-fluid img-thumbnail" alt="Word Guess">
+          <h3>Word Guess</h3>
+        </div>
+        <div class="col-md-6">
+          <img src="assets/images/RPG.jpg" class="img-fluid img-thumbnail" alt="RPG Game">
+          <h3>RPG Game</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="assets/images/Trivia_Game.jpg" class="img-fluid img-thumbnail" alt="Trivia Game">
+          <h3>Trivia Game</h3>
+        </div>
+        <div class="col-md-6">
+          <img src="assets/images/Info_Widget.jpg" class="img-fluid img-thumbnail" alt="Rutgers Info Widget">
+          <h3>Rutgers Info Widget</h3>
+        </div>
+        <div class="col-md-6">
+          <img src="assets/images/Rock.jpg" class="img-fluid img-thumbnail" alt="Rock Paper Scissors">
+          <h3>Rock Paper Scissors</h3>
+        </div>
+      </div>
+  </section>
+
+  <!--   Footer  -->
+  <footer>
+    <div class="row text-center">
+      <div class="col-md-12">
+        <p>&copy copyright</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
 
 </html>
