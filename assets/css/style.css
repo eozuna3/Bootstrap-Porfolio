@@ -7,7 +7,7 @@ body{
   background-image: url(../images/dust_scratches.png);
 }
 
-.navbar{ 
+.navbar{
   padding: .8rem;
   border-bottom: 2px solid #cccccc;
 }
@@ -35,11 +35,16 @@ footer{
   border-top: 8px solid #4aaaa5;
 }
 
+img {
+    width: 100%;
+    border: 0 none;
+}
+
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  border-bottom: 3px solid #dddddd;
+  /*border-bottom: 3px solid #dddddd;*/
 }
 
 h1,
@@ -50,25 +55,27 @@ h3 {
   color: #4aaaa5;
 }
 
-img {
-  width: 100%;
-  border: 0 none;
-  opacity: 0.8;
+.linkCSS{
+  color: #ffffff;
+  background: #4aaaa5;
 }
 
-#port-images h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 95%;
+ #port-images h3 {
   padding: 15px;
-  margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
-  border-bottom: 0;
 }
+
+#port-images a:visited a:hover {
+  text-decoration: none;
+}
+
+#port-images h5:hover {
+  color:black;
+  text-decoration: none;
+}
+
 
 .main-section{
   margin-top: 20px;
@@ -84,7 +91,7 @@ input[type=submit] {
   color: #ffffff;
   cursor: pointer;
   background: #4aaaa5;
-  
+
 }
 
 input[type=submit]:hover {
