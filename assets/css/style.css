@@ -44,7 +44,6 @@ h1 {
   padding-bottom: 20px;
   font-size: 30px;
   line-height: 49px;
-  /*border-bottom: 3px solid #dddddd;*/
 }
 
 h1,
@@ -71,8 +70,9 @@ h3 {
   text-decoration: none;
 }
 
-#port-images h5:hover {
+h5:hover {
   color:black;
+  background-color: #0c524d;
   text-decoration: none;
 }
 
@@ -87,13 +87,13 @@ h3 {
 
 input[type=submit] {
   padding: 10px 30px;
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
   cursor: pointer;
   background: #4aaaa5;
-
 }
 
 input[type=submit]:hover {
   background-color: #0c524d;
 }
+
